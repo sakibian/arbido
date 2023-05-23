@@ -1,7 +1,11 @@
+import Blog from "@components/Blog/Blog";
+import OurPeople from "@components/Our People/OurPeople";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      arbido
+    <main>
+      <Blog />
+      <OurPeople />
     </main>
   );
 }
