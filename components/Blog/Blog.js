@@ -10,8 +10,8 @@ import blog4 from "../../public/assets/images/blog/blog4.png";
 
 const Blog = () => {
   return (
-    <div class="xl:w-[1113px] xl:h-[856px] xl:my-[60px] my-[15px] xl:mx-auto mx-[10px]">
-      <h1 className="2xl:mb-[69px] xl:mb-[59px] mb-[10px] 2xl:text-[48px] xl:text-[41px] text-[25px] font-bold font-source">
+    <div class="xl:w-[1113px] xl:h-[856px] xl:my-[60px] my-[25px] xl:mx-auto mx-[10px]">
+      <h1 className="2xl:mb-[69px] xl:mb-[59px] mb-[10px] 2xl:text-[48px] xl:text-[41px] text-[28px] font-bold font-source">
         From our <span className="text-primary-yellow">blog</span>
       </h1>
       <div className="flex 2xl:flex-row xl:flex-row flex-col 2xl:gap-[27px] xl:gap-[23px] gap-[20px]">
@@ -22,7 +22,7 @@ const Blog = () => {
           <p className="2xl:text-[12px] xl:text-[10px] text-[10px] text-[#AEB7C1] 2xl:mb-[16px] xl:mb-[13px] mb-[8px] font-extrabold uppercase">
             Website design | Thursday, 26 March 2020
           </p>
-          <h3 className="2xl:text-[34px] xl:text-[29px] text-[18px] font-source2 2xl:mb-[26px] xl:mb-[22px] mb-[10px] font-extrabold 2xl:leading-[51px] xl:leading-[44px] leading-6">
+          <h3 className="2xl:text-[34px] xl:text-[29px] text-[25px] font-source2 2xl:mb-[26px] xl:mb-[22px] mb-[10px] font-extrabold 2xl:leading-[51px] xl:leading-[44px] leading-7">
             I think night-time is dark so you can imagine with less distraction
           </h3>
           <h5 className="2xl:text-[15px] xl:text-[14px] font-sintony text-[#222A41] 2xl:leading-[24px] xl:leading-[22px] xl:mb-[46px] mb-[10px]">
@@ -54,10 +54,13 @@ const Blog = () => {
               <p className="uppercase font-extrabold text-xs 2xl:text-[12px] xl:text-[10px] text-[#AEB7C1] 2xl:mb-[20px] xl:mb-[16px] mb-[6px]">
                 website development
               </p>
-              <h3 className="text-black text-sm font-source font-extrabold 2xl:text-[24px] xl:text-[20px] text-[20px] 2xl:leading-[32px] xl:leading-[27px]">
+              <Link
+                href="#"
+                className="text-black text-sm font-source font-extrabold 2xl:text-[24px] xl:text-[20px] text-[24px] 2xl:leading-[32px] xl:leading-[27px] leading-8"
+              >
                 The individual is born of nature, but the artist is born of that
                 individual
-              </h3>
+              </Link>
             </div>
           </div>
           <div className="flex 2xl:flex-row xl:flex-row flex-col 2xl:gap-[27px] xl:gap-[23px] gap-3">
@@ -70,10 +73,13 @@ const Blog = () => {
               <p className="uppercase font-extrabold text-xs 2xl:text-[12px] xl:text-[10px] text-[#AEB7C1] 2xl:mb-[20px] xl:mb-[16px] mb-[6px]">
                 Brand Design
               </p>
-              <h3 className="text-black text-sm font-source font-extrabold 2xl:text-[24px] xl:text-[20px] text-[20px] 2xl:leading-[32px] xl:leading-[27px]">
+              <Link
+                href="#"
+                className="text-black text-sm font-source font-extrabold 2xl:text-[24px] xl:text-[20px] text-[24px] 2xl:leading-[32px] xl:leading-[27px] leading-8"
+              >
                 A life without it is like a sunless garden when the flowers are
                 dead
-              </h3>
+              </Link>
             </div>
           </div>
           <div className="flex 2xl:flex-row xl:flex-row flex-col 2xl:gap-[27px] xl:gap-[23px] gap-3">
@@ -86,9 +92,12 @@ const Blog = () => {
               <p className="uppercase font-extrabold text-xs 2xl:text-[12px] xl:text-[10px] text-[#AEB7C1] 2xl:mb-[20px] xl:mb-[16px] mb-[6px]">
                 UI UX Design
               </p>
-              <h3 className="text-black text-sm font-source font-extrabold 2xl:text-[24px] xl:text-[20px] text-[20px] 2xl:leading-[32px] xl:leading-[27px]">
+              <Link
+                href="#"
+                className="text-black text-sm font-source font-extrabold 2xl:text-[24px] xl:text-[20px] text-[24px] 2xl:leading-[32px] xl:leading-[27px] leading-8"
+              >
                 All sorrows can be borne if they can be put into a story
-              </h3>
+              </Link>
             </div>
           </div>
           <div className="flex 2xl:flex-row xl:flex-row flex-col 2xl:gap-[27px] xl:gap-[23px] gap-3">
@@ -101,9 +110,12 @@ const Blog = () => {
               <p className="uppercase font-extrabold text-xs 2xl:text-[12px] xl:text-[10px] text-[#AEB7C1] 2xl:mb-[20px] xl:mb-[16px] mb-[6px]">
                 Brand Design
               </p>
-              <h3 className="text-black text-sm font-source font-extrabold 2xl:text-[24px] xl:text-[20px] text-[20px] 2xl:leading-[32px] xl:leading-[27px]">
+              <Link
+                href="#"
+                className="text-black text-sm font-source font-extrabold 2xl:text-[24px] xl:text-[20px] text-[24px] 2xl:leading-[32px] xl:leading-[27px] leading-8"
+              >
                 Love is friendship set on fire. certain thoughts are prayers
-              </h3>
+              </Link>
             </div>
           </div>
         </div>

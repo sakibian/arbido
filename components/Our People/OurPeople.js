@@ -14,7 +14,7 @@ import Link from "next/link";
 const OurPeople = () => {
   return (
     <div className="xl:w-[1113px] xl:h-[603px] xl:my-[60px] my-[15px] xl:mx-auto mx-[10px]">
-      <h1 className="xl:grid xl:justify-items-end xl:px-[50px] 2xl:mb-[69px] xl:mb-[59px] mb-[10px] 2xl:text-[48px] xl:text-[41px] text-[25px] font-bold font-source">
+      <h1 className="grid justify-items-end xl:px-[50px] 2xl:mb-[69px] xl:mb-[59px] mb-[10px] 2xl:text-[48px] xl:text-[41px] text-[28px] font-bold font-source">
         <p>
           <span className="text-primary-yellow">People </span>behind the
         </p>
@@ -25,13 +25,19 @@ const OurPeople = () => {
           <h3 className="2xl:text-[28px] xl:text-[27px] text-[18px] font-source2 2xl:mb-[20px] xl:mb-[18px] mb-[10px] font-extrabold 2xl:leading-[51px] xl:leading-[44px] leading-6">
             Tiara Lyodra
           </h3>
-          <h5 className="2xl:text-[15px] xl:text-[14px] font-sintony font-semibold uppercase text-[#222A41] xl:mb-[18px] mb-[8px]">
+          <h5 className="2xl:text-[15px] xl:text-[14px] font-sintony font-semibold uppercase text-[#222A41] xl:mb-[18px] mb-[12px]">
             Head of Product
           </h5>
           <div className="flex xl:gap-[18px] gap-2 xl:mb-[50px] mb-[30px]">
-            <Image src={facebook} alt="Facebook" />
-            <Image src={instagram} alt="Instagram" />
-            <Image src={linkedin} alt="Linkedin" />
+            <Link href="#">
+              <Image src={facebook} alt="Facebook" />
+            </Link>
+            <Link href="#">
+              <Image src={instagram} alt="Instagram" />
+            </Link>
+            <Link href="#">
+              <Image src={linkedin} alt="Linkedin" />
+            </Link>
           </div>
           <h5 className="2xl:text-[15px] xl:text-[14px] font-sintony text-[#222A41] 2xl:leading-[24px] xl:leading-[22px] xl:mb-[52px] mb-[10px]">
             Saturday found him for the first time strolling alone through
@@ -42,13 +48,14 @@ const OurPeople = () => {
             The future was again a secret. now, what was tiring had disappeared
             and only the beauty remained.
           </h5>
-          <Link
-            href="#"
-            className="xl:flex xl:justify-end xl:items-center 2xl:gap-[20px] xl:gap-[18px] gap-[5px]"
-          >
-            <Image src={left} alt="" />
-            <Image src={right} alt="" />
-          </Link>
+          <div className="flex justify-end items-center 2xl:gap-[20px] xl:gap-[18px] gap-[5px]">
+            <Link href="#">
+              <Image src={left} alt="" />
+            </Link>
+            <Link href="#">
+              <Image src={right} alt="" />
+            </Link>
+          </div>
         </div>
         <div className="xl:col-span-4 xl:block 2xl:block hidden">
           <div className="xl:flex xl:justify-around xl:pr-3">
