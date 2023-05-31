@@ -6,13 +6,31 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      sm: "0px",
+      // => @media (min-width: 0px) { ... }
+
+      md: "768px",
+      // => @media (min-width: 768px) { ... }
+
+      lg: "1024px",
+      // => @media (min-width: 1024px) { ... }
+
+      xl: "1248px",
+      // => @media (min-width: 1248px) { ... }
+
+      "2xl": "1440px",
+      // => @media (min-width: 1440px) { ... }
+    },
     extend: {
       fontFamily: {
-        satoshi: ["Satoshi", "sans-serif"],
-        inter: ["Inter", "sans-serif"],
+        source: ["Source Sans Pro", "sans-serif"],
+        sintony: ["Sintony", "sans-serif"],
+        source2: ["Source Sans Pro", "sans-serif"],
       },
       colors: {
-        "primary-orange": "#FF5722",
+        "primary-black": "#000000",
+        "primary-yellow": "#FFC600",
       },
     },
   },
