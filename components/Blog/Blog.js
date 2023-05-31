@@ -10,7 +10,7 @@ import blog4 from "../../public/assets/images/blog/blog4.png";
 
 const Blog = () => {
   return (
-    <div class="xl:w-[1113px] xl:h-[856px] xl:my-[60px] my-[25px] xl:mx-auto mx-[10px]">
+    <div className="xl:w-[1113px] xl:h-[856px] xl:my-[60px] my-[25px] xl:mx-auto mx-[10px]">
       <h1 className="2xl:mb-[69px] xl:mb-[59px] mb-[10px] 2xl:text-[48px] xl:text-[41px] text-[28px] font-bold font-source">
         From our <span className="text-primary-yellow">blog</span>
       </h1>
