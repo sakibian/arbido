@@ -10,7 +10,7 @@ const Navbar = () => {
 		<div className={`w-full xl:grid xl:place-items-center`}>
 			<nav className="  lg:flex lg:items-center xl:container">
 				<div className="flex">
-					<a className="m-4 text-2xl font-bold green_gradient" href="#home">
+					<a className="m-4 text-2xl font-bold" href="#home">
 						Arbido
 					</a>
 					<button
@@ -18,16 +18,16 @@ const Navbar = () => {
 						onClick={() => setShowMobileMenu(!showMobileMenu)}
 					>
 						{showMobileMenu ? (
-							<RxCross1 className="h-8 w-8 text-green-400"></RxCross1>
+							<RxCross1 className="h-8 w-8 "></RxCross1>
 						) : (
-							<CiMenuFries className="h-8 w-8 text-green-400"></CiMenuFries>
+							<CiMenuFries className="h-8 w-8 "></CiMenuFries>
 						)}
 					</button>
 				</div>
 				<ul
 					className={
 						(showMobileMenu ? "" : "hidden") +
-						` lg:ml-auto lg:items-center lg:flex bg-green-400 lg:bg-white`
+						` lg:ml-auto lg:items-center lg:flex bg-[#FFC700] absolute lg:relative justify-end min-h-full w-full lg:bg-white`
 					}
 				>
 					<li className="py-2 grid place-items-center lg:mx-2 ">
