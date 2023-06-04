@@ -21,7 +21,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="carousel xl:my-[60px]">
+    <div className="carousel xl:my-[60px] my-[10px]">
       <Image
         src={left}
         alt="Left Cursor"
@@ -39,7 +39,7 @@ const Testimonials = () => {
               alt="Inverted Comma"
               className="mb-[35px] mt-[50px]"
             />
-            <p className="text-center font-sintony text-[15px] mb-[22px]">
+            <p className="text-center font-sintony xl:text-[15px] mb-[22px] xl:w-2/5 w-4/5">
               {item.quote}
             </p>
             <p className="font-bold mb-[16px]">{item.author}</p>
