@@ -21,13 +21,13 @@ const Contact = () => {
 	};
 	console.log(errors);
 	return (
-		<main className="md:flex w-full items-center my-10 md:px-4">
+		<div className="md:flex w-full items-center my-10 md:px-4">
 			<Image
 				src={ContactImage}
 				alt="contact now"
 				className="hidden md:block w-1/2 py-10 px-10"
 			/>
-			<section className="w-full md:w-1/2 py-10 px-5 md:px-10 shadow-lg bg-lime-50">
+			<div className="w-full md:w-1/2 py-10 px-5 md:px-10 shadow-lg bg-lime-50">
 				<div className="text-center mb-10">
 					<h1 className="font-bold text-3xl text-gray-900">Contact Now</h1>
 					<p>Enter your information to connect</p>
@@ -114,8 +114,8 @@ const Contact = () => {
 						<Button className="mx-auto">Contact</Button>
 					</div>
 				</form>
-			</section>
-		</main>
+			</div>
+		</div>
 	);
 };
 
