@@ -1,3 +1,4 @@
+import About from "@components/About/About";
 import Blog from "@components/Blog/Blog";
 import Hero from "@components/Navbar/Hero";
 import Navbar from "@components/Navbar/Navbar";
@@ -13,6 +14,7 @@ export default function Home() {
 			<Hero />
 			<Services />
 			<Portfolio />
+			<About />
 			<Blog />
 			<OurPeople />
 		</main>
