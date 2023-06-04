@@ -1,3 +1,7 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=source"); */
+@import url("https://fonts.googleapis.com/css2?family=Sintony&family=Source+Sans+Pro:wght@900&display=source2");
+@import url("https://fonts.googleapis.com/css2?family=Sintony&family=Source+Sans+Pro&display=sintony");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
