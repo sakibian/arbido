@@ -5,14 +5,20 @@ import Button from "@components/Navbar/Button";
 import { useForm } from "react-hook-form";
 import Image from "next/image";
 import ContactImage from "../../public/assets/images/contact/contact01.png";
+import { toast } from "react-hot-toast";
 
 const Contact = () => {
 	const {
 		register,
 		handleSubmit,
+		reset,
 		formState: { errors },
 	} = useForm();
-	const onSubmit = (data) => console.log(data);
+	const onSubmit = (data) => {
+		console.log(data);
+		toast.success("Thank you for contacting with us!");
+		reset();
+	};
 	console.log(errors);
 	return (
 		<main className="md:flex w-full items-center my-10 md:px-4">
