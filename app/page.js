@@ -1,5 +1,6 @@
 import About from "@components/About/About";
 import Blog from "@components/Blog/Blog";
+import Contact from "@components/Contact/Contact";
 import Hero from "@components/Navbar/Hero";
 import Navbar from "@components/Navbar/Navbar";
 import OurPeople from "@components/Our People/OurPeople";
@@ -19,6 +20,7 @@ export default function Home() {
 			<Statistics />
 			<Blog />
 			<OurPeople />
+			<Contact />
 		</main>
 	);
 }
