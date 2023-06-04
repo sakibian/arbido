@@ -1,5 +1,4 @@
 import React from "react";
-import HorizontalShape from "../../public/assets/icons/shape/horizontal-shape.png";
 import People from "../../public/assets/icons/our-people/team01.png";
 import Image from "next/image";
 import Button from "@components/Navbar/Button";

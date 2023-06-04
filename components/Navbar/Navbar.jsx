@@ -4,7 +4,6 @@ import { CiMenuFries } from "react-icons/ci";
 import { RxCross1 } from "react-icons/rx";
 
 const Navbar = () => {
-	// const [navbarOpen, setNavbarOpen] = useState(false);
 	const [showMobileMenu, setShowMobileMenu] = useState(false);
 	return (
 		<div className={`w-full xl:grid xl:place-items-center`}>

@@ -1,4 +1,3 @@
-// import Image from "next/image";
 "use client";
 import React from "react";
 import Button from "@components/Navbar/Button";
@@ -44,6 +43,7 @@ const Contact = () => {
 								</div>
 								<input
 									type="text"
+									required
 									className="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-green-500"
 									placeholder="John"
 									{...register("firstName", {
@@ -64,6 +64,7 @@ const Contact = () => {
 								</div>
 								<input
 									type="text"
+									required
 									className="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-green-500"
 									placeholder="Smith"
 									{...register("lastName", {
@@ -86,6 +87,7 @@ const Contact = () => {
 								</div>
 								<input
 									type="email"
+									required
 									className="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-green-500"
 									placeholder="johnsmith@example.com"
 									{...register("email", { required: true })}

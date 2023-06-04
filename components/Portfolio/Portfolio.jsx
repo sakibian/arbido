@@ -4,7 +4,6 @@ import Portfolio01 from "../../public/assets/images/Portfolio/portfolio-01.png";
 import Portfolio02 from "../../public/assets/images/Portfolio/porfolio03.PNG";
 import Portfolio03 from "../../public/assets/images/Portfolio/porfolio02.PNG";
 import ShapeCircle from "../../public/assets/icons/shape/rounded-shape-01.png";
-import ShapeVerticle from "../../public/assets/icons/shape/veritcal-shape-01.png";
 
 const Portfolio = () => {
 	return (
