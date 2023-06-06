@@ -34,7 +34,7 @@ const Contact = () => {
 				<form onSubmit={handleSubmit(onSubmit)}>
 					<div className="flex -mx-3 flex-col md:flex-row">
 						<div className="w-full md:w-1/2 px-3 mb-5">
-							<label htmlFor="" className="text-xs font-semibold px-1">
+							<label for="" className="text-xs font-semibold px-1">
 								First name
 							</label>
 							<div className="flex">
@@ -55,7 +55,7 @@ const Contact = () => {
 							</div>
 						</div>
 						<div className="w-full md:w-1/2 px-3 mb-5">
-							<label htmlFor="" className="text-xs font-semibold px-1">
+							<label for="" className="text-xs font-semibold px-1">
 								Last name
 							</label>
 							<div className="flex">
@@ -78,7 +78,7 @@ const Contact = () => {
 					</div>
 					<div className="flex -mx-3">
 						<div className="w-full px-3 mb-5">
-							<label htmlFor="" className="text-xs font-semibold px-1">
+							<label for="" className="text-xs font-semibold px-1">
 								Email
 							</label>
 							<div className="flex">
@@ -97,7 +97,7 @@ const Contact = () => {
 					</div>
 					<div className="flex -mx-3">
 						<div className="w-full px-3 mb-12">
-							<label htmlFor="" className="text-xs font-semibold px-1">
+							<label for="" className="text-xs font-semibold px-1">
 								Message
 							</label>
 							<div className="flex">
