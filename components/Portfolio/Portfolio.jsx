@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Portfolio01 from "../../public/assets/images/Portfolio/portfolio-01.png";
-// import Portfolio02 from "../../public/assets/images/Portfolio/porfolio03.PNG";
+import Portfolio02 from "../../public/assets/images/Portfolio/porfolio03.PNG";
 import Portfolio03 from "../../public/assets/images/Portfolio/porfolio02.PNG";
 import ShapeCircle from "../../public/assets/icons/shape/rounded-shape-01.png";
 
@@ -40,7 +40,7 @@ const Portfolio = () => {
 							height={500}
 							alt="portfolio-webdevelopment"
 							className="float-right mb-6 md:mb-0"
-						></Image>
+						/>
 					</div>
 				</div>
 				<div className="flex flex-col gap-8 relative">
@@ -50,14 +50,14 @@ const Portfolio = () => {
 						height={500}
 						alt="portfolio-app-development"
 						className="shadow-lg"
-					></Image>
+					/>
 					<Image
 						src={Portfolio02}
 						width={600}
 						height={500}
 						alt="portfolio-webdevelopment"
 						className="shadow-md"
-					></Image>
+					/>
 				</div>
 			</div>
 		</div>
