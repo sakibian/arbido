@@ -35,7 +35,7 @@ const Portfolio = () => {
 			<div className="flex flex-col md:flex-row gap-0 md:gap-5 p-1 md:p-0 justify-around items-center">
 				<div className="w-full md:w-1/2">
 					<div className="">
-						<img
+						<Image
 							src={Portfolio01}
 							height={500}
 							alt="portfolio-webdevelopment"
@@ -44,14 +44,14 @@ const Portfolio = () => {
 					</div>
 				</div>
 				<div className="flex flex-col gap-8 relative">
-					<img
+					<Image
 						src={Portfolio03}
 						width={600}
 						height={500}
 						alt="portfolio-app-development"
 						className="shadow-lg"
 					/>
-					<img
+					<Image
 						src={Portfolio02}
 						width={600}
 						height={500}
